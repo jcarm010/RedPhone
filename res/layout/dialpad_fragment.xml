@@ -19,14 +19,14 @@
               android:orientation="vertical"
               android:layout_gravity="center_vertical"
               android:gravity="center_vertical"
-              android:background="#ffffff">
+              android:background="@drawable/gradient">
 
     <LinearLayout android:id="@+id/digits_container"
                   android:layout_width="match_parent"
                   android:layout_height="47dp"
                   android:orientation="horizontal">
 
-        <view class="org.thoughtcrime.redphone.dialer.DigitsEditText"
+        <view class="org.thoughtcrime.mannycalls.dialer.DigitsEditText"
               android:id="@+id/digits"
               android:layout_width="0dp"
               android:layout_height="match_parent"
@@ -86,7 +86,7 @@
         </TableRow>
 
         <TableRow>
-            <org.thoughtcrime.redphone.dialer.DialpadKeyButton
+            <org.thoughtcrime.mannycalls.dialer.DialpadKeyButton
                     android:id="@+id/star"
                     style="@style/DialpadKeyButtonStyle">
                 <LinearLayout
@@ -98,9 +98,9 @@
                             android:layout_height="match_parent"
                             android:layout_width="50dp" />
                 </LinearLayout>
-            </org.thoughtcrime.redphone.dialer.DialpadKeyButton>
+            </org.thoughtcrime.mannycalls.dialer.DialpadKeyButton>
             <include layout="@layout/dialpad_key" android:id="@+id/zero"/>
-            <org.thoughtcrime.redphone.dialer.DialpadKeyButton
+            <org.thoughtcrime.mannycalls.dialer.DialpadKeyButton
                     android:id="@+id/pound"
                     style="@style/DialpadKeyButtonStyle">
                 <LinearLayout
@@ -112,24 +112,29 @@
                             android:layout_height="match_parent"
                             android:layout_width="50dp" />
                 </LinearLayout>
-            </org.thoughtcrime.redphone.dialer.DialpadKeyButton>
+            </org.thoughtcrime.mannycalls.dialer.DialpadKeyButton>
         </TableRow>
     </TableLayout>
 
-    <LinearLayout android:layout_width="match_parent"
+    <RelativeLayout android:layout_width="match_parent"
                   android:layout_height="wrap_content"
                   android:orientation="horizontal"
                   android:layout_marginTop="30dp"
                   android:layout_gravity="center_horizontal"
-                  android:gravity="center_horizontal"
-                  android:background="#3B77E7">
+                  android:gravity="center_horizontal">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:background="@drawable/button_call">
 
-        <ImageView android:id="@+id/call_button"
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:paddingTop="10dp"
-                   android:paddingBottom="10dp"
-                   android:src="@drawable/ic_dial_action_call"/>
-
-    </LinearLayout>
+            <ImageView android:id="@+id/call_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:src="@drawable/ic_dial_action_call"/>
+        </RelativeLayout>
+    </RelativeLayout>
 </LinearLayout>

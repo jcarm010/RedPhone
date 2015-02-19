@@ -15,7 +15,7 @@
 -->
 
 <!-- A layout representing a single key in the dialpad -->
-<org.thoughtcrime.redphone.dialer.DialpadKeyButton
+<org.thoughtcrime.mannycalls.dialer.DialpadKeyButton
         xmlns:android="http://schemas.android.com/apk/res/android"
         style="@style/DialpadKeyButtonStyle">
 
@@ -32,4 +32,4 @@
                 android:id="@+id/dialpad_key_letters"
                 style="@style/DialpadKeyLettersStyle" />
     </LinearLayout>
-</org.thoughtcrime.redphone.dialer.DialpadKeyButton>
+</org.thoughtcrime.mannycalls.dialer.DialpadKeyButton>

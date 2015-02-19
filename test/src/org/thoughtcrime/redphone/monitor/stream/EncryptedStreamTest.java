@@ -15,11 +15,11 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package org.thoughtcrime.redphone.monitor.stream;
+package org.thoughtcrime.mannycalls.monitor.stream;
 
 import android.content.res.Resources;
 import android.test.AndroidTestCase;
-import org.thoughtcrime.redphone.tests.R;
+import org.thoughtcrime.mannycalls.tests.R;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

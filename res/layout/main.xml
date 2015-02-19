@@ -20,7 +20,8 @@
               android:layout_height="fill_parent"
               >
 
-    <org.thoughtcrime.redphone.ui.CallScreen android:id="@+id/callScreen"
+    <org.thoughtcrime.mannycalls.ui.CallScreen
+        android:id="@+id/callScreen"
                                              android:layout_width="fill_parent"
                                              android:layout_height="fill_parent" />
 

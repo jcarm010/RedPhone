@@ -1,4 +1,4 @@
-package org.thoughtcrime.redphone.crypto;
+package org.thoughtcrime.mannycalls.crypto;
 
 import android.test.AndroidTestCase;
 
