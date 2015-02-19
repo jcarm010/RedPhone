@@ -21,8 +21,8 @@ import android.content.Context;
 import android.util.Log;
 
 import org.thoughtcrime.mannycalls.Release;
-import org.thoughtcrime.mannycalls.audio.AudioException;
-import org.thoughtcrime.mannycalls.audio.CallAudioManager;
+import org.thoughtcrime.redphone.audio.AudioException;
+import org.thoughtcrime.redphone.audio.CallAudioManager;
 import org.thoughtcrime.mannycalls.crypto.SecureRtpSocket;
 import org.thoughtcrime.mannycalls.crypto.zrtp.MasterSecret;
 import org.thoughtcrime.mannycalls.crypto.zrtp.ZRTPResponderSocket;

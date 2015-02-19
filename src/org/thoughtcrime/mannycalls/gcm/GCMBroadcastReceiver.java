@@ -6,7 +6,7 @@ public class GCMBroadcastReceiver extends com.google.android.gcm.GCMBroadcastRec
 
   @Override
   protected String getGCMIntentServiceClassName(Context context) {
-    return "org.thoughtcrime.redphone.gcm.GCMIntentService";
+    return "org.thoughtcrime.mannycalls.gcm.GCMIntentService";
   }
 
 }

@@ -30,8 +30,8 @@ import android.preference.PreferenceManager;
 import android.telephony.TelephonyManager;
 import android.util.Log;
 
-import org.thoughtcrime.mannycalls.audio.IncomingRinger;
-import org.thoughtcrime.mannycalls.audio.OutgoingRinger;
+import org.thoughtcrime.redphone.audio.IncomingRinger;
+import org.thoughtcrime.redphone.audio.OutgoingRinger;
 import org.thoughtcrime.mannycalls.call.CallManager;
 import org.thoughtcrime.mannycalls.call.CallStateListener;
 import org.thoughtcrime.mannycalls.call.InitiatingCallManager;
